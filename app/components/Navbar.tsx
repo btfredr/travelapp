@@ -1,8 +1,13 @@
-import React from 'react'
+import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+     <nav className="border-2 border-red-500 flexbetween max-container padding-container relative z-30 py-5">
+        <Link href="/">
+            Home
+        </Link>
+
+     </nav>
   )
 }
 
